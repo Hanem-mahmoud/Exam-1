@@ -273,6 +273,7 @@ display: none;
 }
 .w-80{
   width: 99% !important;
+  margin: auto;
 }
 .flex-med{
   text-align: center;
@@ -311,5 +312,6 @@ display: none;
 }
 .font-header-h1{
   width: 90% !important;
+  margin: auto;
 }
 }
