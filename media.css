@@ -1,3 +1,8 @@
+@media (max-width: 1900px) {
+  .hover-3:hover{
+  transform: translate(0px,-2px);
+  }
+}
 @media (max-width: 1158px) {
   .font-h3{
   font-size: clamp(12px,3vw,17px) !important;
@@ -56,8 +61,13 @@
  .w-65{
   width: 65% !important;
  }
-  
-
+  .gap-5-media{
+    gap: 30px;
+  }
+  .w-75-media{
+    width: 70% !important;
+    padding-bottom: 10px !important;
+  }
   }
 
 @media (max-width: 990px) {
@@ -140,8 +150,25 @@
 .padding-bottom{
   padding-bottom: 40px !important;
 }
-
-
+.w-75-media{
+  width: 88% !important;
+  padding-bottom: 15px !important;
+}
+.font-h1{
+  font-size: 36px !important;
+}
+.w-55 {
+    width: 95%;
+}
+.absolute-nav-3 {
+    display: none;
+}
+.absolute-nav-2 {
+  display: none;
+}
+.absolute-nav {
+display: none;
+}
 }
 
 @media (max-width: 775px) {
@@ -176,6 +203,26 @@
 .w-55{
   width: 97% !important;
 }
+.card-4, .card-5 {
+    font-size: 12px;
+    font-weight: 700;
+    border: 1.5px solid #e0d9ff;
+    background-color: #f9f5ff;
+    letter-spacing: .5px;
+}
+.width-75{
+  width: 90% !important;
+}
+.w-media-2 {
+  flex-direction: column;
+
+}
+
+.w-media-2 .w-50{
+  width: 100% !important;
+}
+
+
 }
 
 @media (max-width: 598px) {
@@ -187,7 +234,7 @@
     font-weight: 900 !important;
 }
 .w-75-media {
-    width: 103% !important;
+    width: 100% !important;
     margin-bottom: 50px;
 }
 .carousel-control-prev .left, .carousel-control-next .right {
@@ -211,12 +258,58 @@
     width: 101% !important;
 }
 
+.font-h3 {
+    font-size: 20px !important; 
 }
-@media (max-width: 428px) {
+
+}
+@media (max-width: 506px) {
+.font-h3{
+  font-size: 14px !important;
+}
+.text-font{
+  width: 90% !important;
+  text-wrap: wrap;
+}
+.w-80{
+  width: 99% !important;
+}
+.flex-med{
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.font-h1{
+  width: 80%;
+  margin: auto;
+}
+}
+
+
+@media (max-width: 425px) {
 .width-content {
     width: 84% !important;
 }
 .w-80 {
     width: 100% !important;
+}
+.text-font{
+  width: 100% !important;
+  text-wrap: wrap;
+}
+.font-h3{
+  text-wrap: wrap;
+}
+.padding {
+    padding: 8px;
+}
+.pad-2{
+  padding: 10px !important;
+}
+.width-content{
+  width: 97% !important;
+}
+.font-header-h1{
+  width: 90% !important;
 }
 }
